@@ -1,12 +1,15 @@
+//app.component.ts
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ProjectComponent } from './project/project.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet,ProfileComponent,ProjectComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Dev-Portfolio';
+  title = 'Developer Portfolio';
 }
