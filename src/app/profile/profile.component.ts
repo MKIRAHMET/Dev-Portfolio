@@ -13,6 +13,6 @@ export class ProfileComponent{
   name: string = "Muhammed Kir Ahmet";
 role: string = "Software Developer";
 location: string = "Thessaloniki, Greece";
-linkedinUrl: string = "www.linkedin.com/in/muhammed-kir-ahmet-0ab424267";
+linkedinUrl: string = "https://www.linkedin.com/in/muhammed-kir-ahmet-0ab424267";
 githubUrl: string = "https://github.com/MKIRAHMET";
 }

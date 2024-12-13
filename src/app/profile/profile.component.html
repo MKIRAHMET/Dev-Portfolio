@@ -1,9 +1,11 @@
 <!-- profile.component.html -->
 <div class="profile">
-  <img ngSrc="https://media.licdn.com/dms/image/v2/D4D35AQEqHvDj-69ydA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1730975864333?e=1734652800&v=beta&t=1LdFr_Xq3W1ieJI1k3HLVxaiCEi5AQk0JBRCRcPCbvs" width='200' height='300' alt='Profile Picture'>
+  <img ngSrc="https://media.licdn.com/dms/image/v2/D4D35AQEqHvDj-69ydA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1730975864333?e=1734652800&v=beta&t=1LdFr_Xq3W1ieJI1k3HLVxaiCEi5AQk0JBRCRcPCbvs" width='300' height='300' alt='Profile Picture'>
   <h2>{{name}}</h2>
   <p>{{role}}</p>
 <p>{{location}}</p>
-  <div class="social-links">
-  </div>
+<div class="social-links">
+  <a [href]='linkedinUrl' target='_blank' class='social-button'>Linkedin</a>
+  <a [href]='githubUrl' target='_blank' class='social-button'>GitHub</a>
+</div>
 </div>
